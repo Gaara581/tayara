@@ -11,7 +11,7 @@
     <div>
         <div class="">
             <nav class="navbar navbar-light bg-light col-12">
-                <div class="col-2">Tayara</div>
+                <div class="col-2"><img src="img/logo.svg" alt=""></div>
                 <div class="col-6"> <div class="input-group ">
                     <input type="text" class="form-control" placeholder="Chercher Toutes les catégories" aria-label="Chercher Toutes les catégories" aria-describedby="button-addon2">
                     <div class="input-group-append">
@@ -26,6 +26,60 @@
                 
               </nav>
         </div>
+        <div class="col-12 row">
+            <div class="col-9">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="text-danger" data-toggle="modal" data-target="#cities"> Toutes la Tunisie</span> <br>
+               <span> 1200 announces</span>
+            </div>
+            <div class="col-3 row">
+                <h3>Trier par</h3>
+                <select style="width: 150px;" class="form-control ml-2">
+                    <option value="">Pertrinence</option>
+                    <option value="">La plus recent</option>
+                    <option value="">Prix le plus elever</option>
+                    <option value="">Prix le plus bas</option>
+                </select>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Modal -->
+<div class="modal fade" id="cities" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-white bg-danger">
+          <h5 class="modal-title" id="exampleModalLabel">Definir la position</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>
+              Ariena
+          </div>
+          <div>
+            Nabeul
+        </div>
+        <div>
+            Sousse
+        </div>
+        <div>
+            Monastir
+        </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
     </div>
     
